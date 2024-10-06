@@ -36,12 +36,14 @@ http://[2409:8087:441a:20:101:211:601:6]:6610/PLTV/88888888/224/3221227175/index
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010142/index.m3u8
 #EXTINF:-1 tvg-id="A18" tvg-name="CCTV17" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CCTV17.png" group-title="央视高清",CCTV-17 农业农村
 http://[2409:8087:441a:20:101:211:601:6]:6610/PLTV/88888888/224/3221227188/index.m3u8?servicetype=1
-#EXTINF:-1 tvg-id="CHC1" tvg-name="CHC高清电影" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CHC1.png" group-title="央视高清",CHC高清电影
-http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN6380764b172c9/index.m3u8?AuthInfo=9kOOdBn7MFF%2F2bWjKgahUTrwI%2B%2BngB0lPRofcD8hTNS8qWmEGeaUedzcFVVumqf9cm8lJoOcrIZueLbqOJTuoPV%2FwBk6CoHYGFV14SkLW04
-#EXTINF:-1 tvg-id="CHC2" tvg-name="CHC家庭影院" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CHC2.png" group-title="央视高清",CHC家庭影院
-http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN63807601b19dd/index.m3u8?AuthInfo=9kOOdBn7MFF%2F2bWjKgahUTrwI%2B%2BngB0lPRofcD8hTNRxu2SqX2RKsLT0S7AyQ8XopIVrD6IJGxdajeuKy4iZqZ4tkZuiEpwSRPszF6PIvg4
-#EXTINF:-1 tvg-id="CHC3" tvg-name="CHC动作电影" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CHC3.png" group-title="央视高清",CHC动作电影
-http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN6380763222d00/index.m3u8?AuthInfo=9kOOdBn7MFF%2F2bWjKgahUTrwI%2B%2BngB0lPRofcD8hTNSXQZMUEnZPBI3Y%2BI8ABE4PJC%2B6OvlZZw5ubC%2FbrIdxFJJY1CcAGU%2BYDDQV9oJ%2FVqQ
+#EXTINF:-1 tvg-id="中国天气" tvg-name="中国天气" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/zgtq.png" group-title="央视高清",中国天气
+http://[2409:8087:5e08:24::3]:6610/000000001000/2000000002000000057/index.m3u8?channel-id=hnbblive&Contentid=2000000002000000057&livemode=1&stbId=3
+#EXTINF:-1 tvg-id="CHC1" tvg-name="CHC影迷电影" tvg-logo="https://cdn.jsdelivr.net/gh/star1021/IPTV@main/TVlogo/CHC影迷电影.png" group-title="数字高清",CHC影迷电影
+http://[2001:250:5800:1005::155]:80/liverespath/bca6167afdef7fc773405c38e695b342c1d1eca0/index.m3u8
+#EXTINF:-1 tvg-id="CHC2" tvg-name="CHC家庭影院" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CHC2.png" group-title="数字高清",CHC家庭影院
+http://[2001:250:5800:1005::155]:80/liverespath/e0096742f0c5be4c5225cf3c7ab1077177bec05f/index.m3u8
+#EXTINF:-1 tvg-id="CHC3" tvg-name="CHC动作电影" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CHC3.png" group-title="数字高清",CHC动作电影
+http://[2001:250:5800:1005::155]:80/liverespath/449d51febadb152094085d373b9af94a6ac5f1dd/index.m3u8
 #EXTINF:-1 tvg-id="A19" tvg-name="CCTV4K" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CCTV4K.png" group-title="央视高清",CCTV-4K 超高清
 http://[2409:8087:441a:20:101:211:601:6]:6610/PLTV/88888888/224/3221227354/index.m3u8?servicetype=1
 #EXTINF:-1 tvg-id="A20" tvg-name="CCTV8K" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CCTV8K.png" group-title="央视高清",CCTV-8K 超高清
@@ -297,34 +299,6 @@ http://222.241.154.37:9901/tsfile/live/23026_1.m3u8
 #EXTINF:-1 tvg-id="湖南教育" tvg-name="湖南教育" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Hunan8.png" group-title="地方特色",湖南教育台
 http://222.241.154.37:9901/tsfile/live/23027_1.m3u8
 
-#山西/5个频道
-#EXTINF:-1 tvg-id="SX01" tvg-name="黄河电视台" tvg-logo="https://cdn.jsdelivr.net/gh/Meroser/IPTV-DF@main/logo/Shanxi1.png" group-title="地方特色",黄河电视台
-http://liveflash.sxrtv.com/live/huanghe.m3u8?sub_m3u8=true&edge_slice=true
-#EXTINF:-1 tvg-id="SX02" tvg-name="山西经济与科技" tvg-logo="https://cdn.jsdelivr.net/gh/Meroser/IPTV-DF@main/logo/Shanxi2.png" group-title="地方特色",山西经济与科技
-http://liveflash.sxrtv.com/live/sxfinance.m3u8?sub_m3u8=true&edge_slice=true
-#EXTINF:-1 tvg-id="SX03" tvg-name="山西影视" tvg-logo="https://cdn.jsdelivr.net/gh/Meroser/IPTV-DF@main/logo/Shanxi3.png" group-title="地方特色",山西影视
-http://liveflash.sxrtv.com/live/sxfilm.m3u8?sub_m3u8=true&edge_slice=true
-#EXTINF:-1 tvg-id="SX04" tvg-name="山西社会与法治" tvg-logo="https://cdn.jsdelivr.net/gh/Meroser/IPTV-DF@main/logo/Shanxi4.png" group-title="地方特色",山西社会与法治
-http://liveflash.sxrtv.com/live/sxedu.m3u8?sub_m3u8=true&edge_slice=true
-#EXTINF:-1 tvg-id="SX05" tvg-name="山西文体生活" tvg-logo="https://cdn.jsdelivr.net/gh/Meroser/IPTV-DF@main/logo/Shanxi5.png" group-title="地方特色",山西文体生活
-http://liveflash.sxrtv.com/live/sxpublic.m3u8?sub_m3u8=true&edge_slice=true
-
-#湖北/7个频道
-#EXTINF:-1 tvg-id="HB01" tvg-name="湖北综合" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Hubei1.png" group-title="地方特色",湖北综合
-http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN638072216f7da/index.m3u8?AuthInfo=9kOOdBn7MFF%2F2bWjKgahUUAdKgLqNB5aOAUhcp5CeNLx3R3LdIBdA5q61lut1LwZcw4SC2tJubc%2Bq5t%2F61jvWCtjrJL0x%2BHncPgdmcbBW9I
-#EXTINF:-1 tvg-id="HB02" tvg-name="湖北影视" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Hubei2.png" group-title="地方特色",湖北影视
-http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN6380728abccd2/index.m3u8?AuthInfo=9kOOdBn7MFF%2F2bWjKgahUUAdKgLqNB5aOAUhcp5CeNKU1xiiKGJYFBZK9RpEkaggogtHJZW6nJQqLppbEYE%2BqJ9kJW%2FMvKldfS2dCii9VSI
-#EXTINF:-1 tvg-id="HB03" tvg-name="湖北教育" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Hubei3.png" group-title="地方特色",湖北教育
-http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN638072a6cbbf6/index.m3u8?AuthInfo=9kOOdBn7MFF%2F2bWjKgahUUAdKgLqNB5aOAUhcp5CeNKTFQuOKNd5i0HMa3ydMWIQ6kJ2fBJGJ77BLTXK72CqUYQsX3ZguYt0954s9hfZTfc
-#EXTINF:-1 tvg-id="HB04" tvg-name="湖北生活" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Hubei4.png" group-title="地方特色",湖北生活
-http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN638072c62e405/index.m3u8?AuthInfo=9kOOdBn7MFF%2F2bWjKgahUUAdKgLqNB5aOAUhcp5CeNKJPodw5BcDirSOw7egztI5bUvJjqPzSNAhrA37GrbRBIAjGQpzP0QmgsmuHnQyd2c
-#EXTINF:-1 tvg-id="HB05" tvg-name="湖北公共" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Hubei5.png" group-title="地方特色",湖北公共
-http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN6380726d0ee3b/index.m3u8?AuthInfo=9kOOdBn7MFF%2F2bWjKgahUUAdKgLqNB5aOAUhcp5CeNKgjpyhD%2FJd6SZjkcHAKXbsjwotAY57dianC4%2ByY7artm7J7F4GFO6G99D0bYMJRxI
-#EXTINF:-1 tvg-id="HB06" tvg-name="湖北经视" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Hubei6.png" group-title="地方特色",湖北经视
-http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN63807203543e3/index.m3u8?AuthInfo=9kOOdBn7MFF%2F2bWjKgahUUAdKgLqNB5aOAUhcp5CeNLVCQ3pDe4nBySab%2B3xPL123aTSCRugzF2ABe36IIJw2evZbYdWUo0ffUw53bflDgU
-#EXTINF:-1 tvg-id="HB07" tvg-name="湖北垄上" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Hubei7.png" group-title="地方特色",湖北垄上
-http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN638072463c333/index.m3u8?AuthInfo=9kOOdBn7MFF%2F2bWjKgahUUAdKgLqNB5aOAUhcp5CeNL%2Be1h4FfA5QqwJ7IPOz3p2qIS7djSxm17Htd%2FckZkm%2FVqsKHEJFJt26ju9iibzMEo
-
 #浙江/7个频道
 #EXTINF:-1 tvg-id="ZJ01" tvg-name="浙江钱江都市" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Zhejiang1.png" group-title="地方特色",浙江钱江都市
 https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8
@@ -361,22 +335,6 @@ http://[2409:8087:5e08:24::3]:6610/000000001000/5000000007000010003/index.m3u8?c
 http://[2409:8087:5e08:24::3]:6610/000000001000/2000000002000000065/index.m3u8?channel-id=hnbblive&Contentid=2000000002000000065&livemode=1&stbId=3
 #EXTINF:-1 tvg-id="BJ08" tvg-name="卡酷少儿" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Beijing8.png" group-title="地方特色",卡酷少儿
 http://[2409:8087:74d9:21::6]/270000001128/9900000040/index.m3u8
-
-#陕西/7个频道
-#EXTINF:-1 tvg-id="I01" tvg-name="陕西新闻资讯" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Shanxi1.png" group-title="地方特色",陕西新闻资讯
-http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000001719/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
-#EXTINF:-1 tvg-id="I02" tvg-name="陕西都市青春" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Shanxi2.png" group-title="地方特色",陕西都市青春
-http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000001593/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
-#EXTINF:-1 tvg-id="I03" tvg-name="陕西生活" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Shanxi3.png" group-title="地方特色",陕西生活
-http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000001729/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
-#EXTINF:-1 tvg-id="I04" tvg-name="陕西影视" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Shanxi4.png" group-title="地方特色",陕西影视
-http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000001730/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
-#EXTINF:-1 tvg-id="I05" tvg-name="陕西公共" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Shanxi5.png" group-title="地方特色",陕西公共
-http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000001739/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
-#EXTINF:-1 tvg-id="I06" tvg-name="陕西体育休闲" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Shanxi6.png" group-title="地方特色",陕西体育休闲
-http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000001594/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
-#EXTINF:-1 tvg-id="I07" tvg-name="陕西西部电影" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Shanxi7.png" group-title="地方特色",陕西西部电影
-http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000001749/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
 
 #黑龙江/6个频道
 #EXTINF:-1 tvg-id="HLJ01" tvg-name="黑龙江新闻法治" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Heilongjiang1.png" group-title="地方特色",黑龙江新闻法治
@@ -451,93 +409,93 @@ http://[2409:8087:7000:20:1000::22]:6060/000000001000/1000000001000006197/index.
 
 #咪咕体育/46个频道
 #EXTINF:-1 tvg-id="migu" tvg-name="咪咕直播" tvg-logo="https://cdn.jsdelivr.net/gh/star1021/IPTV@main/TVlogo/MG.png" group-title="移动咪咕",咪咕直播4K-1
-http://[2409:8087:1a01:df::4001]/PLTV/88888888/224/3221225655/index.m3u8
+http://[2409:8087:1a01:df::4001]/TVOD/88888888/224/3221225655/main.m3u8
 #EXTINF:-1 tvg-id="migu" tvg-name="咪咕直播" tvg-logo="https://cdn.jsdelivr.net/gh/star1021/IPTV@main/TVlogo/MG.png" group-title="移动咪咕",咪咕直播4K-2
-http://[2409:8087:1a01:df::4020]/PLTV/88888888/224/3221225651/index.m3u8
+http://[2409:8087:1a01:df::4020]/TVOD/88888888/224/3221225651/main.m3u8
 #EXTINF:-1 tvg-id="migu" tvg-name="咪咕直播" tvg-logo="https://cdn.jsdelivr.net/gh/star1021/IPTV@main/TVlogo/MG.png" group-title="移动咪咕",咪咕直播-1
-http://[2409:8087:1a01:df::4023]/PLTV/88888888/224/3221225611/index.m3u8
+http://[2409:8087:1a01:df::4023]/TVOD/88888888/224/3221225611/main.m3u8
 #EXTINF:-1 tvg-id="migu" tvg-name="咪咕直播" tvg-logo="https://cdn.jsdelivr.net/gh/star1021/IPTV@main/TVlogo/MG.png" group-title="移动咪咕",咪咕直播-2
-http://[2409:8087:1a01:df::4009]/PLTV/88888888/224/3221225613/index.m3u8
+http://[2409:8087:1a01:df::4009]/TVOD/88888888/224/3221225613/main.m3u8
 #EXTINF:-1 tvg-id="migu" tvg-name="咪咕直播" tvg-logo="https://cdn.jsdelivr.net/gh/star1021/IPTV@main/TVlogo/MG.png" group-title="移动咪咕",咪咕直播-3
-http://[2409:8087:1a01:df::4017]/PLTV/88888888/224/3221225619/index.m3u8
+http://[2409:8087:1a01:df::4017]/TVOD/88888888/224/3221225619/main.m3u8
 #EXTINF:-1 tvg-id="migu" tvg-name="咪咕直播" tvg-logo="https://cdn.jsdelivr.net/gh/star1021/IPTV@main/TVlogo/MG.png" group-title="移动咪咕",咪咕直播-4
-http://[2409:8087:1a01:df::4058]/PLTV/88888888/224/3221225620/index.m3u8
+http://[2409:8087:1a01:df::4058]/TVOD/88888888/224/3221225620/main.m3u8
 #EXTINF:-1 tvg-id="migu" tvg-name="咪咕直播" tvg-logo="https://cdn.jsdelivr.net/gh/star1021/IPTV@main/TVlogo/MG.png" group-title="移动咪咕",咪咕直播-5
-http://[2409:8087:1a01:df::4015]/PLTV/88888888/224/3221225639/index.m3u8
+http://[2409:8087:1a01:df::4015]/TVOD/88888888/224/3221225639/main.m3u8
 #EXTINF:-1 tvg-id="migu" tvg-name="咪咕直播" tvg-logo="https://cdn.jsdelivr.net/gh/star1021/IPTV@main/TVlogo/MG.png" group-title="移动咪咕",咪咕直播-6
-http://[2409:8087:1a01:df::4015]/PLTV/88888888/224/3221225641/index.m3u8
+http://[2409:8087:1a01:df::4015]/TVOD/88888888/224/3221225641/main.m3u8
 #EXTINF:-1 tvg-id="migu" tvg-name="咪咕直播" tvg-logo="https://cdn.jsdelivr.net/gh/star1021/IPTV@main/TVlogo/MG.png" group-title="移动咪咕",咪咕直播-7
-http://[2409:8087:1a01:df::4011]/PLTV/88888888/224/3221225643/index.m3u8
+http://[2409:8087:1a01:df::4011]/TVOD/88888888/224/3221225643/main.m3u8
 #EXTINF:-1 tvg-id="migu" tvg-name="咪咕直播" tvg-logo="https://cdn.jsdelivr.net/gh/star1021/IPTV@main/TVlogo/MG.png" group-title="移动咪咕",咪咕直播-8
-http://[2409:8087:1a01:df::4002]/PLTV/88888888/224/3221225645/index.m3u8
+http://[2409:8087:1a01:df::4002]/TVOD/88888888/224/3221225645/main.m3u8
 #EXTINF:-1 tvg-id="migu" tvg-name="咪咕直播" tvg-logo="https://cdn.jsdelivr.net/gh/star1021/IPTV@main/TVlogo/MG.png" group-title="移动咪咕",咪咕直播-9
-http://[2409:8087:1a01:df::4016]/PLTV/88888888/224/3221225647/index.m3u8
+http://[2409:8087:1a01:df::4016]/TVOD/88888888/224/3221225647/main.m3u8
 #EXTINF:-1 tvg-id="migu" tvg-name="咪咕直播" tvg-logo="https://cdn.jsdelivr.net/gh/star1021/IPTV@main/TVlogo/MG.png" group-title="移动咪咕",咪咕直播-10
-http://[2409:8087:1a01:df::4022]/PLTV/88888888/224/3221225648/index.m3u8
+http://[2409:8087:1a01:df::4022]/TVOD/88888888/224/3221225648/main.m3u8
 #EXTINF:-1 tvg-id="migu" tvg-name="咪咕直播" tvg-logo="https://cdn.jsdelivr.net/gh/star1021/IPTV@main/TVlogo/MG.png" group-title="移动咪咕",咪咕直播-11
-http://[2409:8087:1a01:df::4003]/PLTV/88888888/224/3221225649/index.m3u8
+http://[2409:8087:1a01:df::4003]/TVOD/88888888/224/3221225649/main.m3u8
 #EXTINF:-1 tvg-id="migu" tvg-name="咪咕直播" tvg-logo="https://cdn.jsdelivr.net/gh/star1021/IPTV@main/TVlogo/MG.png" group-title="移动咪咕",咪咕直播-12
-http://[2409:8087:1a01:df::4003]/PLTV/88888888/224/3221225650/index.m3u8
+http://[2409:8087:1a01:df::4003]/TVOD/88888888/224/3221225650/main.m3u8
 #EXTINF:-1 tvg-id="migu" tvg-name="咪咕直播" tvg-logo="https://cdn.jsdelivr.net/gh/star1021/IPTV@main/TVlogo/MG.png" group-title="移动咪咕",咪咕直播-13
-http://[2409:8087:1a01:df::4014]/PLTV/88888888/224/3221225652/index.m3u8
+http://[2409:8087:1a01:df::4014]/TVOD/88888888/224/3221225652/main.m3u8
 #EXTINF:-1 tvg-id="migu" tvg-name="咪咕直播" tvg-logo="https://cdn.jsdelivr.net/gh/star1021/IPTV@main/TVlogo/MG.png" group-title="移动咪咕",咪咕直播-14
-http://[2409:8087:1a01:df::4013]/PLTV/88888888/224/3221225653/index.m3u8
+http://[2409:8087:1a01:df::4013]/TVOD/88888888/224/3221225653/main.m3u8
 #EXTINF:-1 tvg-id="migu" tvg-name="咪咕直播" tvg-logo="https://cdn.jsdelivr.net/gh/star1021/IPTV@main/TVlogo/MG.png" group-title="移动咪咕",咪咕直播-15
-http://[2409:8087:1a01:df::4017]/PLTV/88888888/224/3221225654/index.m3u8
+http://[2409:8087:1a01:df::4017]/TVOD/88888888/224/3221225654/main.m3u8
 #EXTINF:-1 tvg-id="migu" tvg-name="咪咕直播" tvg-logo="https://cdn.jsdelivr.net/gh/star1021/IPTV@main/TVlogo/MG.png" group-title="移动咪咕",咪咕直播-16
-http://[2409:8087:1a01:df::4019]/PLTV/88888888/224/3221225658/index.m3u8
+http://[2409:8087:1a01:df::4019]/TVOD/88888888/224/3221225658/main.m3u8
 #EXTINF:-1 tvg-id="migu" tvg-name="咪咕直播" tvg-logo="https://cdn.jsdelivr.net/gh/star1021/IPTV@main/TVlogo/MG.png" group-title="移动咪咕",咪咕直播-17
-http://[2409:8087:1a01:df::4012]/PLTV/88888888/224/3221225660/index.m3u8
+http://[2409:8087:1a01:df::4012]/TVOD/88888888/224/3221225660/main.m3u8
 #EXTINF:-1 tvg-id="migu" tvg-name="咪咕直播" tvg-logo="https://cdn.jsdelivr.net/gh/star1021/IPTV@main/TVlogo/MG.png" group-title="移动咪咕",咪咕直播-18
-http://[2409:8087:1a01:df::4023]/PLTV/88888888/224/3221225662/index.m3u8
+http://[2409:8087:1a01:df::4023]/TVOD/88888888/224/3221225662/main.m3u8
 #EXTINF:-1 tvg-id="migu" tvg-name="咪咕直播" tvg-logo="https://cdn.jsdelivr.net/gh/star1021/IPTV@main/TVlogo/MG.png" group-title="移动咪咕",咪咕直播-19
-http://[2409:8087:1a01:df::4062]/PLTV/88888888/224/3221225733/index.m3u8
+http://[2409:8087:1a01:df::4062]/TVOD/88888888/224/3221225733/main.m3u8
 #EXTINF:-1 tvg-id="migu" tvg-name="咪咕直播" tvg-logo="https://cdn.jsdelivr.net/gh/star1021/IPTV@main/TVlogo/MG.png" group-title="移动咪咕",咪咕直播-20
-http://[2409:8087:1a01:df::4048]/PLTV/88888888/224/3221225735/index.m3u8
+http://[2409:8087:1a01:df::4048]/TVOD/88888888/224/3221225735/main.m3u8
 #EXTINF:-1 tvg-id="migu" tvg-name="咪咕直播" tvg-logo="https://cdn.jsdelivr.net/gh/star1021/IPTV@main/TVlogo/MG.png" group-title="移动咪咕",咪咕直播-21
-http://[2409:8087:1a01:df::4025]/PLTV/88888888/224/3221225737/index.m3u8
+http://[2409:8087:1a01:df::4025]/TVOD/88888888/224/3221225737/main.m3u8
 #EXTINF:-1 tvg-id="migu" tvg-name="咪咕直播" tvg-logo="https://cdn.jsdelivr.net/gh/star1021/IPTV@main/TVlogo/MG.png" group-title="移动咪咕",咪咕直播-22
-http://[2409:8087:1a01:df::4074]/PLTV/88888888/224/3221225739/index.m3u8
+http://[2409:8087:1a01:df::4074]/TVOD/88888888/224/3221225739/main.m3u8
 #EXTINF:-1 tvg-id="migu" tvg-name="咪咕直播" tvg-logo="https://cdn.jsdelivr.net/gh/star1021/IPTV@main/TVlogo/MG.png" group-title="移动咪咕",咪咕直播-23
-http://[2409:8087:1a01:df::4030]/PLTV/88888888/224/3221225754/index.m3u8
+http://[2409:8087:1a01:df::4030]/TVOD/88888888/224/3221225754/main.m3u8
 #EXTINF:-1 tvg-id="migu" tvg-name="咪咕直播" tvg-logo="https://cdn.jsdelivr.net/gh/star1021/IPTV@main/TVlogo/MG.png" group-title="移动咪咕",咪咕直播-24
-http://[2409:8087:1a01:df::4025]/PLTV/88888888/224/3221225756/index.m3u8
+http://[2409:8087:1a01:df::4025]/TVOD/88888888/224/3221225756/main.m3u8
 #EXTINF:-1 tvg-id="migu" tvg-name="咪咕直播" tvg-logo="https://cdn.jsdelivr.net/gh/star1021/IPTV@main/TVlogo/MG.png" group-title="移动咪咕",咪咕直播-25
-http://[2409:8087:1a01:df::4077]/PLTV/88888888/224/3221225758/index.m3u8
+http://[2409:8087:1a01:df::4077]/TVOD/88888888/224/3221225758/main.m3u8
 #EXTINF:-1 tvg-id="migu" tvg-name="咪咕直播" tvg-logo="https://cdn.jsdelivr.net/gh/star1021/IPTV@main/TVlogo/MG.png" group-title="移动咪咕",咪咕直播-26
-http://[2409:8087:1a01:df::4025]/PLTV/88888888/224/3221225760/index.m3u8
+http://[2409:8087:1a01:df::4025]/TVOD/88888888/224/3221225760/main.m3u8
 #EXTINF:-1 tvg-id="migu" tvg-name="咪咕直播" tvg-logo="https://cdn.jsdelivr.net/gh/star1021/IPTV@main/TVlogo/MG.png" group-title="移动咪咕",咪咕直播-27
-http://[2409:8087:1a01:df::4002]/PLTV/88888888/224/3221225895/index.m3u8
+http://[2409:8087:1a01:df::4005]/TVOD/88888888/224/3221225895/main.m3u8
 #EXTINF:-1 tvg-id="migu" tvg-name="咪咕直播" tvg-logo="https://cdn.jsdelivr.net/gh/star1021/IPTV@main/TVlogo/MG.png" group-title="移动咪咕",咪咕直播-28
-http://[2409:8087:1a01:df::4028]/PLTV/88888888/224/3221225897/index.m3u8
+http://[2409:8087:1a01:df::4028]/TVOD/88888888/224/3221225897/main.m3u8
 #EXTINF:-1 tvg-id="migu" tvg-name="咪咕直播" tvg-logo="https://cdn.jsdelivr.net/gh/star1021/IPTV@main/TVlogo/MG.png" group-title="移动咪咕",咪咕直播-29
-http://[2409:8087:1a01:df::4061]/PLTV/88888888/224/3221225899/index.m3u8
+http://[2409:8087:1a01:df::4061]/TVOD/88888888/224/3221225899/main.m3u8
 #EXTINF:-1 tvg-id="migu" tvg-name="咪咕直播" tvg-logo="https://cdn.jsdelivr.net/gh/star1021/IPTV@main/TVlogo/MG.png" group-title="移动咪咕",咪咕直播-30
-http://[2409:8087:1a01:df::4009]/PLTV/88888888/224/3221225901/index.m3u8
+http://[2409:8087:1a01:df::4055]/TVOD/88888888/224/3221225901/main.m3u8
 #EXTINF:-1 tvg-id="migu" tvg-name="咪咕直播" tvg-logo="https://cdn.jsdelivr.net/gh/star1021/IPTV@main/TVlogo/MG.png" group-title="移动咪咕",咪咕直播-31
-http://[2409:8087:1a01:df::4023]/PLTV/88888888/224/3221225903/index.m3u8
+http://[2409:8087:1a01:df::4051]/TVOD/88888888/224/3221225903/main.m3u8
 #EXTINF:-1 tvg-id="migu" tvg-name="咪咕直播" tvg-logo="https://cdn.jsdelivr.net/gh/star1021/IPTV@main/TVlogo/MG.png" group-title="移动咪咕",咪咕直播-32
-http://[2409:8087:1a01:df::403b]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226147/index.m3u8
+http://[2409:8087:1a01:df::4051]/TVOD/88888888/224/3221225905/main.m3u8
 #EXTINF:-1 tvg-id="migu" tvg-name="咪咕直播" tvg-logo="https://cdn.jsdelivr.net/gh/star1021/IPTV@main/TVlogo/MG.png" group-title="移动咪咕",咪咕直播-33
-http://[2409:8087:1a01:df::4051]/PLTV/88888888/224/3221225905/index.m3u8
+http://[2409:8087:1a01:df::4055]/TVOD/88888888/224/3221225910/main.m3u8
 #EXTINF:-1 tvg-id="migu" tvg-name="咪咕直播" tvg-logo="https://cdn.jsdelivr.net/gh/star1021/IPTV@main/TVlogo/MG.png" group-title="移动咪咕",咪咕直播-34
-http://[2409:8087:1a01:df::4033]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226398/index.m3u8
+http://[2409:8087:1a01:df::4076]/TVOD/88888888/224/3221225912/main.m3u8
 #EXTINF:-1 tvg-id="migu" tvg-name="咪咕直播" tvg-logo="https://cdn.jsdelivr.net/gh/star1021/IPTV@main/TVlogo/MG.png" group-title="移动咪咕",咪咕直播-35
-http://[2409:8087:1a01:df::4055]/PLTV/88888888/224/3221225910/index.m3u8
+http://[2409:8087:1a01:df::402d]/TVOD/88888888/224/3221225914/main.m3u8
 #EXTINF:-1 tvg-id="migu" tvg-name="咪咕直播" tvg-logo="https://cdn.jsdelivr.net/gh/star1021/IPTV@main/TVlogo/MG.png" group-title="移动咪咕",咪咕直播-36
-http://[2409:8087:1a01:df::4076]/PLTV/88888888/224/3221225912/index.m3u8
+http://[2409:8087:1a01:df::400d]/TVOD/88888888/224/3221226027/main.m3u8
 #EXTINF:-1 tvg-id="migu" tvg-name="咪咕直播" tvg-logo="https://cdn.jsdelivr.net/gh/star1021/IPTV@main/TVlogo/MG.png" group-title="移动咪咕",咪咕直播-37
-http://[2409:8087:1a01:df::4027]/PLTV/88888888/224/3221225914/index.m3u8
+http://[2409:8087:1a01:df::400d]/TVOD/88888888/224/3221226031/main.m3u8
 #EXTINF:-1 tvg-id="migu" tvg-name="咪咕直播" tvg-logo="https://cdn.jsdelivr.net/gh/star1021/IPTV@main/TVlogo/MG.png" group-title="移动咪咕",咪咕直播-38
-http://[2409:8087:1a01:df::4076]/PLTV/88888888/224/3221226027/index.m3u8
+http://[2409:8087:1a01:df::4062]/TVOD/88888888/224/3221226046/main.m3u8
 #EXTINF:-1 tvg-id="migu" tvg-name="咪咕直播" tvg-logo="https://cdn.jsdelivr.net/gh/star1021/IPTV@main/TVlogo/MG.png" group-title="移动咪咕",咪咕直播-39
-http://[2409:8087:1a01:df::4068]/PLTV/88888888/224/3221226031/index.m3u8
+http://[2409:8087:1a01:df::4041]/TVOD/88888888/224/3221226053/main.m3u8
 #EXTINF:-1 tvg-id="migu" tvg-name="咪咕直播" tvg-logo="https://cdn.jsdelivr.net/gh/star1021/IPTV@main/TVlogo/MG.png" group-title="移动咪咕",咪咕直播-40
-http://[2409:8087:1a01:df::4062]/PLTV/88888888/224/3221226046/index.m3u8
-#EXTINF:-1 tvg-id="migu" tvg-name="咪咕直播" tvg-logo="https://cdn.jsdelivr.net/gh/star1021/IPTV@main/TVlogo/MG.png" group-title="移动咪咕",咪咕直播-41
-http://[2409:8087:1a01:df::4041]/PLTV/88888888/224/3221226053/index.m3u8
-#EXTINF:-1 tvg-id="migu" tvg-name="咪咕直播" tvg-logo="https://cdn.jsdelivr.net/gh/star1021/IPTV@main/TVlogo/MG.png" group-title="移动咪咕",咪咕直播-42
 http://[2409:8087:1a01:df::404d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226124/index.m3u8
+#EXTINF:-1 tvg-id="migu" tvg-name="咪咕直播" tvg-logo="https://cdn.jsdelivr.net/gh/star1021/IPTV@main/TVlogo/MG.png" group-title="移动咪咕",咪咕直播-41
+http://[2409:8087:1a01:df::403b]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226147/index.m3u8
+#EXTINF:-1 tvg-id="migu" tvg-name="咪咕直播" tvg-logo="https://cdn.jsdelivr.net/gh/star1021/IPTV@main/TVlogo/MG.png" group-title="移动咪咕",咪咕直播-42
+http://[2409:8087:1a01:df::4033]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226398/index.m3u8
 #EXTINF:-1 tvg-id="migu" tvg-name="咪咕直播" tvg-logo="https://cdn.jsdelivr.net/gh/star1021/IPTV@main/TVlogo/MG.png" group-title="移动咪咕",咪咕直播-43
 http://[2409:8087:1a01:df::402a]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226469/index.m3u8
 #EXTINF:-1 tvg-id="migu" tvg-name="咪咕直播" tvg-logo="https://cdn.jsdelivr.net/gh/star1021/IPTV@main/TVlogo/MG.png" group-title="移动咪咕",咪咕直播-44
