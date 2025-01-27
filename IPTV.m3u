@@ -61,7 +61,7 @@ http://[2409:8087:5e08:24::3]:6610/000000001000/5000000011000031126/index.m3u8?c
 #EXTINF:-1 tvg-id="B01" tvg-name="湖南卫视" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Hunan.png" group-title="卫视高清",湖南卫视
 http://[2409:8087:441a:20:101:211:601:6]:6610/PLTV/88888888/224/3221227205/index.m3u8?servicetype=1
 #EXTINF:-1 tvg-id="B02" tvg-name="浙江卫视" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Zhejiang.png" group-title="卫视高清",浙江卫视
-http://[2409:8087:441a:20:101:211:601:6]:6610/PLTV/88888888/224/3221227201/index.m3u8?servicetype=1
+http://[2409:8087:441a:20:101:211:601:6]:6610/PLTV/88888888/224/3221227202/index.m3u8?servicetype=1
 #EXTINF:-1 tvg-id="B03" tvg-name="东方卫视" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Dongfang.png" group-title="卫视高清",东方卫视
 http://[2409:8087:441a:20:101:211:601:6]:6610/PLTV/88888888/224/3221227199/index.m3u8?servicetype=1
 #EXTINF:-1 tvg-id="B04" tvg-name="北京卫视" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Beijing.png" group-title="卫视高清",北京卫视
